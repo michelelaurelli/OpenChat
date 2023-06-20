@@ -54,7 +54,7 @@
         </div>
         <div class="relative w-full max-w-2xl mx-auto text-center">
             <div class="mb-5">
-                <h1 class="text-2xl md:text-3xl text-white font-bold">👋 Welcome to OpenChat!</h1>
+                <h1 class="text-2xl md:text-3xl text-white font-bold">👋 Benvenuto su ChatAI!</h1>
             </div>
         </div>
     </div>

@@ -32,7 +32,7 @@
         <div class="mb-8">
 
             <!-- Title -->
-            <h1 class="text-2xl md:text-3xl text-slate-800 font-bold">{{$bot->getName()}}: try & share ✨</h1>
+            <h1 class="text-2xl md:text-3xl text-slate-800 font-bold">{{$bot->getName()}}: test e condividi ✨</h1>
             <ul class="inline-flex flex-wrap text-sm font-medium">
                 <li class="flex items-center">
                     <a class="text-slate-500 hover:text-indigo-500" href="{{route('index')}}">Home</a>
@@ -41,7 +41,7 @@
                     </svg>
                 </li>
                 <li class="flex items-center">
-                    <a class="text-slate-500 hover:text-indigo-500" >Try & Share</a>
+                    <a class="text-slate-500 hover:text-indigo-500" >Prova e condividi</a>
                 </li>
 
             </ul>
@@ -62,8 +62,8 @@
                         <div class="inputs">
                             <!-- Form Section -->
                             <section class="sm:w-1/2">
-                                <h3 class="text-xl leading-snug text-slate-800 font-bold mb-1">Try & Share!</h3>
-                                <div class="text-sm">Here you can try and play with your bot, also you can share it or embed it in your web apps</div>
+                                <h3 class="text-xl leading-snug text-slate-800 font-bold mb-1">Test e condividi!</h3>
+                                <div class="text-sm">Qui puoi provare a giocare con il tuo bot, puoi anche condividerlo o incorporarlo nelle tue app web</div>
 
 
 
@@ -72,7 +72,7 @@
                                     <!-- Start -->
                                     <div>
                                         <div class="flex items-center justify-between">
-                                            <label class="block text-sm font-medium mb-1" for="tooltip"> 🔗 Share with others!</label>
+                                            <label class="block text-sm font-medium mb-1" for="tooltip"> 🔗 Condividilo!</label>
                                             <div class="relative ml-2" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
                                                 <button class="block" aria-haspopup="true" :aria-expanded="open" @focus="open = true" @focusout="open = false" @click.prevent="" aria-expanded="false">
                                                     <svg class="w-4 h-4 fill-current text-slate-400" viewBox="0 0 16 16">
@@ -90,8 +90,7 @@
                                                         x-transition:leave="transition ease-out duration-200"
                                                         x-transition:leave-start="opacity-100"
                                                         x-transition:leave-end="opacity-0" style="display: none;">
-                                                        <div class="text-sm">Anyone with this link will be able to
-                                                            interact with your chatbot
+                                                        <div class="text-sm">Chiunque abbia questo link sarà in grado di interagire con il tuo chatbot
                                                         </div>
                                                     </div>
                                                 </div>
@@ -111,8 +110,7 @@
                                     <!-- Start -->
                                     <div>
                                         <div class="flex items-center justify-between">
-                                            <label class="block text-sm font-medium mb-1" for="tooltip">💻 Embed on your
-                                                web app</label>
+                                            <label class="block text-sm font-medium mb-1" for="tooltip">💻 Incorporalo nelle tue pagine web</label>
                                             <div class="relative ml-2" x-data="{ open: false }"
                                                  @mouseenter="open = true" @mouseleave="open = false">
                                                 <button class="block" aria-haspopup="true" :aria-expanded="open" @focus="open = true" @focusout="open = false" @click.prevent="" aria-expanded="false">

@@ -175,7 +175,7 @@
                     <div>
                         <div
                             class="text-sm bg-indigo-500 text-white p-3 rounded-lg rounded-tl-none border border-transparent shadow-md mb-1">
-                            Hello, I'm {{$bot->getName()}}, and I'm here to help! What can I do for you today?
+                            Ciao, sono {{$bot->getName()}}, e sono qui per aiutarti! Cosa posso fare per te oggi?
                         </div>
                         <div class="flex items-center justify-between">
 
@@ -192,19 +192,19 @@
                     <!-- Message input -->
                     <form class="grow flex">
                         <div class="grow mr-3">
-                            <label for="message-input" class="sr-only">Type a message</label>
+                            <label for="message-input" class="sr-only">Scrivi un messaggio</label>
                             <input id="message-input"
                                    class="form-input w-full bg-slate-100 border-transparent focus:bg-white focus:border-slate-300"
-                                   type="text" placeholder="Write your question here..."  autocomplete="off"/>
+                                   type="text" placeholder="Scrivi qui il tuo messaggio..."  autocomplete="off"/>
                         </div>
                         <button
                             class="btn bg-indigo-500 hover:bg-indigo-600 text-white whitespace-nowrap"
-                            onclick="sendMessage()">Send -&gt;
+                            onclick="sendMessage()">Invia -&gt;
                         </button>
                     </form>
                 </div>
                 <div style="text-align: center; background: white;font-size: 12px">
-                    Powered by <strong><a href="https://openchat.so" target="_blank" class="text-indigo-500 hover:text-indigo-600">OpenChat</a></strong>
+                    Powered by <strong>Michele Laurelli</strong>
 
                 </div>
             </div>
